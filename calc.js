@@ -54,8 +54,6 @@ const handleOperation = (req, res, operation, operationFunc) => {
         const n1 = parseFloat(req.query.n1);
         const n2 = parseFloat(req.query.n2);
         validateNumbers(n1, n2);
-
-       // logger.info(`Received request from ${req.ip}: ${req.method} ${req.originalUrl}`);
        logger.info(`New ${operation} operation requested: ${n1} ${operation} ${n2}`);
 
         const result = operationFunc(n1, n2);
