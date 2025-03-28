@@ -1,0 +1,6 @@
+{"level":"info","message":"New addition operation requested: 5 addition 66","service":"calculator-microservice"}
+{"level":"info","message":"New subtraction operation requested: 105 subtraction 66","service":"calculator-microservice"}
+{"level":"info","message":"New multiplication operation requested: 105 multiplication 66","service":"calculator-microservice"}
+{"level":"info","message":"New division operation requested: 100 division 20","service":"calculator-microservice"}
+{"level":"error","message":"n2 is incorrectly defined","service":"calculator-microservice"}
+{"level":"error","message":"n2 incorrectly defined","service":"calculator-microservice"}
